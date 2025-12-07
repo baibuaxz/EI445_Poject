@@ -156,7 +156,7 @@ function renderDashboard(data) {
         safeSetStyle('level-text', 'color', '#27AE60');
         color = '#27AE60';
     }
-    
+    safeSetStyle('progress-fill', 'backgroundColor', color);
 }
 
 // --- 3. USAGE CHART (แก้ไข: แสดงข้อมูล Insight) ---
